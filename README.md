@@ -79,7 +79,7 @@ Where:
 - $$M_i$$ is the plaintext symbol at position \(i\).
 - $$K_i$$ is the key symbol at position \(i\).
 - $$C_i$$ is the ciphertext symbol at position \(i\).
-- $$bmod 27$$ keeps the result within the 27-symbol alphabet.
+- $$\bmod 27$$ keeps the result within the 27-symbol alphabet.
 
 For the demonstration, the program derives a key from a selected plaintext and the fixed ciphertext. This is done to make the example reproducible and to show that different plaintexts can be compatible with the same ciphertext.
 
