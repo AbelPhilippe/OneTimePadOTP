@@ -64,15 +64,15 @@ Each symbol is assigned an integer from 0 to 26. Encryption and decryption use m
 
 Encryption:
 
-\[
+$$
 C_i = (M_i + K_i) \bmod 27
-\]
+$$
 
 Decryption:
 
-\[
+$$
 M_i = (C_i - K_i + 27) \bmod 27
-\]
+$$
 
 Where:
 
@@ -114,15 +114,15 @@ For every plaintext \(M\) and ciphertext \(C\) of the same length, there is exac
 
 In information-theoretic terms, perfect secrecy is expressed as:
 
-\[
+$$
 P(M \mid C) = P(M)
-\]
+$$
 
 Equivalently, the mutual information between the plaintext and ciphertext is zero:
 
-\[
+$$
 I(M;C) = 0
-\]
+$$
 
 These statements mean that the ciphertext provides no information about the plaintext, provided the OTP's assumptions hold.
 
